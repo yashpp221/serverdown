@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exploram Server Down</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .logo {
+      width: 300px;
+      margin-bottom: 1px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #2d8ed9;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="D:\New folder (2)\blue.png" alt="Logo" class="logo">
+    <h1>Server Down</h1>
+    <p>We apologize for the inconvenience, but this Time server is currently down for maintenance.</p>
+    <p>Please check back later.</p>
+    <button class="button" onclick="refreshPage()">Refresh</button>
+  </div>
+
+  <script>
+    function refreshPage() {
+      window.location.reload();
+    }
+  </script>
+</body>
+</html>
