@@ -58,4 +58,63 @@
     }
   </script>
 </body> 
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    #maintenance-message {
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    #remove-message-btn {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="maintenance-message">
+    <p>This website is under maintenance. We apologize for any inconvenience.</p>
+    <button id="remove-message-btn">Remove Message</button>
+  </div>
+
+  <!-- Your website content goes here -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var maintenanceMessage = document.getElementById('maintenance-message');
+      var removeMessageBtn = document.getElementById('remove-message-btn');
+
+      // Check if the message was previously hidden
+      var isMessageHidden = localStorage.getItem('isMessageHidden');
+
+      if (isMessageHidden === 'true') {
+        maintenanceMessage.style.display = 'none';
+      }
+
+      // Add click event listener to the remove message button
+      removeMessageBtn.addEventListener('click', function () {
+        maintenanceMessage.style.display = 'none';
+
+        // Store a flag in local storage to remember that the message is hidden
+        localStorage.setItem('isMessageHidden', 'true');
+      });
+    });
+  </script>
+</body>
 </html>
