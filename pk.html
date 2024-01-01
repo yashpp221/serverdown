@@ -152,6 +152,9 @@
   
   <script crossorigin="anonymous" async src="https://github.com/yashpp221/serverdown/blob/main/lazysizes.min.js"></script>
 
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
 
   
 <!-- SEO, JSON‑LD, Schema --><meta property="og:image" content="https://cdn.shopify.com/s/files/1/0481/6640/4247/files/Ifyx_7a48b9d5-f091-4f36-9fb7-03c0c1c23cf5.png?height=628&pad_color=ffffff&v=1615323208&width=1200" />
@@ -166,7 +169,8 @@
 
 <body data-rtl="false" class="templateIndex mobile-bar-inside as-default-theme category-mode-false cata-grid-4 lazy-loading-img">
   <script crossorigin="anonymous" src="jquery-3.5.min.js"></script>
-  
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   
     <script crossorigin="anonymous" src="jquery.swiper.js" defer></script>
@@ -5392,6 +5396,19 @@
             <div class="swiper-button-prev swiper-button-prev-01 swiper-button-white"></div>
           
         </div>
+
+	    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var mySwiper = new Swiper('.swiper-container', {
+      // Your Swiper configuration options go here
+      autoplay: {
+        delay: 6000, // Autoplay delay in milliseconds
+      },
+      // Add other configuration options as needed
+    });
+  });
+</script>
+
 
         <script>
           jQuery(document).ready(function($) {
