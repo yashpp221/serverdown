@@ -2,14 +2,14 @@
     font-family: Open Sans;
     font-weight: 700;
     font-style: normal;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.8bfd11295a1edbb769a778900a2afc48b16848e7.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=56ed7a117558e609ce8f6788457a4ce3a8495aecc7863176fa5288a8793b04ff) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
 }
 
 @font-face {
     font-family: Open Sans;
     font-weight: 400;
     font-style: normal;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.8512334118d0e9cf94c4626d298dba1c9f12a294.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0988f305a2a518d115861016f3c9f0c43bb4d36ee311c72fc9a9e855e6b2bd32) format("woff")
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.5460e0463a398b1075386f51084d8aa756bafb17.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=02354ba8540f02d8615fd673fa7bff2ef0d1acf5f4d0dc25ed93a460f0af4fef) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.8512334118d0e9cf94c4626d298dba1c9f12a294.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0988f305a2a518d115861016f3c9f0c43bb4d36ee311c72fc9a9e855e6b2bd32) format("woff")
 }
 
 @font-face {
@@ -17,47 +17,7 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.802efb07b3f5051e538f43bcf2ea8622d85014ad.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=1ac1494b74635041b006eb7b46a3d607ac46e7935504a537f77b957898aa8622) format("woff")
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.8512334118d0e9cf94c4626d298dba1c9f12a294.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0988f305a2a518d115861016f3c9f0c43bb4d36ee311c72fc9a9e855e6b2bd32) format("woff")
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.1c4dde7af5554df3b20e440ca17dc8a316a9e1d0.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2decba5f0c7f0a6afd76064bb8deee3b1f968d0d027230409ee948aef5069803) format("woff")
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n8.5bba25de3685e6a02f32b4a9e97462d3380a62e3.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=4517ed1a484be1aa41335c510fee636bb687e61302d5a96ce26f76c547535fdc) format("woff")
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.802efb07b3f5051e538f43bcf2ea8622d85014ad.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=1ac1494b74635041b006eb7b46a3d607ac46e7935504a537f77b957898aa8622) format("woff")
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.e625f784016f3f6ecc60fbe32f43a8968a01f630.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=7cf87ec1d67fab7ae272d6d4cb5152d2c9005d022830590ee40601264a35ebdd) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.802efb07b3f5051e538f43bcf2ea8622d85014ad.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=1ac1494b74635041b006eb7b46a3d607ac46e7935504a537f77b957898aa8622) format("woff")
 }
 
 @font-face {
@@ -73,7 +33,7 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.1c4dde7af5554df3b20e440ca17dc8a316a9e1d0.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2decba5f0c7f0a6afd76064bb8deee3b1f968d0d027230409ee948aef5069803) format("woff")
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.63a74f6cbbfef729fb07955b2d5b4cc83273862e.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=8f24c53536138ec7b1d26619b58ed672ef31139bca09367f43a726b517cd39a2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.1c4dde7af5554df3b20e440ca17dc8a316a9e1d0.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2decba5f0c7f0a6afd76064bb8deee3b1f968d0d027230409ee948aef5069803) format("woff")
 }
 
 @font-face {
@@ -81,7 +41,47 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-    src: url(arenafont.woff2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.8bfd11295a1edbb769a778900a2afc48b16848e7.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=56ed7a117558e609ce8f6788457a4ce3a8495aecc7863176fa5288a8793b04ff) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n8.1a6578d1602b9445554d723b8c42e0908f4d82f0.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=013dfd6d2d6c7a1c4ff2695e68d40d22b209b6da50ab86a9e8a4020a502ce5a2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n8.5bba25de3685e6a02f32b4a9e97462d3380a62e3.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=4517ed1a484be1aa41335c510fee636bb687e61302d5a96ce26f76c547535fdc) format("woff")
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.e625f784016f3f6ecc60fbe32f43a8968a01f630.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=7cf87ec1d67fab7ae272d6d4cb5152d2c9005d022830590ee40601264a35ebdd) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n3.802efb07b3f5051e538f43bcf2ea8622d85014ad.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=1ac1494b74635041b006eb7b46a3d607ac46e7935504a537f77b957898aa8622) format("woff")
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.5460e0463a398b1075386f51084d8aa756bafb17.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=02354ba8540f02d8615fd673fa7bff2ef0d1acf5f4d0dc25ed93a460f0af4fef) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n4.8512334118d0e9cf94c4626d298dba1c9f12a294.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0988f305a2a518d115861016f3c9f0c43bb4d36ee311c72fc9a9e855e6b2bd32) format("woff")
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.63a74f6cbbfef729fb07955b2d5b4cc83273862e.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=8f24c53536138ec7b1d26619b58ed672ef31139bca09367f43a726b517cd39a2) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n6.1c4dde7af5554df3b20e440ca17dc8a316a9e1d0.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2decba5f0c7f0a6afd76064bb8deee3b1f968d0d027230409ee948aef5069803) format("woff")
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.8bfd11295a1edbb769a778900a2afc48b16848e7.woff2?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=56ed7a117558e609ce8f6788457a4ce3a8495aecc7863176fa5288a8793b04ff) format("woff2"),url(//ifyxstore.com/cdn/fonts/open_sans/opensans_n7.4e2eb03bfa5cdc209fbd1b7b5ee863b8032f4b36.woff?h1=aWZ5eHN0b3JlLmNvbQ&h2=aWZ5eHN0b3JlLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0d70eb0076027c61045ebae143ee686baeb8949f44635990147ae87ad8f30550) format("woff")
 }
 
 .lazy-loading-img #home-slideshow .swiper-slide.lazyload {
