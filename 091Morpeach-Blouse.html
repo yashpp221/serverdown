@@ -6504,18 +6504,22 @@ for (var attr in meta) {
       <div class="spr-summary rte">
         <span class="spr-summary-caption">No reviews yet</span>
         <span class="spr-summary-actions">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwWmAKTEoQim_PI0j5hP1uFBIc8sFhWG4z_tDSwSaM9rv05w/viewform?usp=sf_link" class="#" onclick="redirectToGoogleForm()">Write a review</a>
+          <a href="#" class="spr-summary-actions-newreview" onclick="openGoogleForm()">Write a review</a>
         </span>
       </div>
+    </div>
+    <div id="google-form-container" style="display: none;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdwWmAKTEoQim_PI0j5hP1uFBIc8sFhWG4z_tDSwSaM9rv05w/viewform?usp=sf_link" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
   </div>
 
   <script>
-    function redirectToGoogleForm() {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdwWmAKTEoQim_PI0j5hP1uFBIc8sFhWG4z_tDSwSaM9rv05w/viewform?usp=sf_link";
+    function openGoogleForm() {
+      document.getElementById('google-form-container').style.display = 'block';
     }
   </script>
 </div>
+
 
 
 
