@@ -4526,13 +4526,33 @@ for (var attr in meta) {
 
     </span>
   </div>
-</div>
-                                <div class="action-button">
-  <button id="add-to-cart" class="add-to-cart btn btn-1" type="button"><span class="demo-icon icon-electro-add-to-cart-icon"></span>Add to cart</button> 
+</div> <div class="action-button">
+<div class="action-button">
+    <button id="add-to-cart-button" class="add-to-cart btn btn-1" type="button"><span class="demo-icon icon-electro-add-to-cart-icon"></span>Add to cart</button>
 </div>
 
+<div class="action-button">
+    <button id="buy-now-button" class="buy-now btn btn-1" type="button"><span class="demo-icon icon-electro-buy-now-icon"></span>Buy Now</button>
+</div>
 
-  <div data-shopify="payment-button" data-has-selling-plan="false" data-has-fixed-selling-plan="false" data-customer-accounts-required="true" class="shopify-payment-button"><button class="shopify-payment-button__button shopify-payment-button__button--unbranded shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button><button class="shopify-payment-button__more-options shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button></div>
+<script>
+    // Function to handle button clicks and redirect to the Google Forms link
+    function redirectToGoogleForms() {
+        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScbJmE1e15cL_bKef6BrSk5nQd3vA8eEmr8hyBhnCzFSAYbvw/viewform?usp=sf_link';
+    }
+
+    // Add to Cart button logic
+    document.getElementById('add-to-cart-button').addEventListener('click', function () {
+        console.log('Add to Cart button clicked');
+        redirectToGoogleForms();
+    });
+
+    // Buy Now button logic
+    document.getElementById('buy-now-button').addEventListener('click', function () {
+        console.log('Buy Now button clicked');
+        redirectToGoogleForms();
+    });
+</script>
 
                               </div>
                             <input type="hidden" name="product-id" value="5699247308951" /></form>
