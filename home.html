@@ -582,8 +582,19 @@ for (var attr in meta) {
   <script crossorigin="anonymous" src="//ifyxstore.com/cdn/shopifycloud/shopify/assets/themes_support/api.jquery-b0af070cfe3f5cf7c92f9e2a5da2665ee07ed2aad63bb408f8d6672f894a5996.js" defer></script>
 
 	
-  
-  
+  <div class="container scroll-right">
+   <span>New Articles</span>
+   <marquee behavior="" direction="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eum quia error placeat recusandae hic, nostrum doloremque nihil ducimus repellendus ea eius architecto doloribus sed.</marquee>
+</div>
+
+	<style>
+		*{ margin: 0; padding: 0;}
+body{ background: #0084ff; font-family: sans-serif; width: 80%; margin: 0 auto;}
+.container{ display: flex; align-items: center; background: #eee; margin-top: 40px;}
+.container span{ position: relative; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: #f00;
+     color: #fff; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+.scroll-left span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);}
+		</style>
   
   
   
