@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spin and Win Game</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    #wheel {
+      width: 300px;
+      height: 300px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+    }
+    #spinner {
+      width: 100%;
+      height: 100%;
+      transition: transform 3s ease-out;
+    }
+    #spinButton {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="wheel">
+  <img id="spinner" src="wheel.png" alt="Spin Wheel">
+</div>
+<button id="spinButton" onclick="spinWheel()">Spin</button>
+
+<script>
+  let spinning = false;
+
+  function spinWheel() {
+    if (!spinning) {
+      spinning = true;
+      const wheel = document.getElementById('spinner');
+      const randomDegree = Math.floor(Math.random() * 360) + 720; // Adjust the range as needed
+      wheel.style.transform = `rotate(${randomDegree}deg)`;
+      
+      // Simulate an asynchronous process (e.g., fetching prize from server)
+      setTimeout(() => {
+        alert('Congratulations! You won a prize.'); // Replace with your logic to handle the prize won
+        resetWheel();
+      }, 3000);
+    }
+  }
+
+  function resetWheel() {
+    const wheel = document.getElementById('spinner');
+    wheel.style.transform = 'rotate(0deg)';
+    spinning = false;
+  }
+</script>
+
+</body>
+</html>
