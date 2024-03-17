@@ -12297,6 +12297,28 @@ for (var attr in meta) {
 
 <script crossorigin="anonymous" src="//ifyxstore.com/cdn/shop/t/4/assets/bc.script.js?v=26864874475478290501600156026"></script>
 <script src="//ifyxstore.com/cdn/shop/t/4/assets/admin-panel.js?v=23852649603509575711600155965" type="text/javascript"></script>
-  
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCJPYf5o71C5VHugg2HtfNPMr_3cnZIaio",
+    authDomain: "sunita-fashion.firebaseapp.com",
+    projectId: "sunita-fashion",
+    storageBucket: "sunita-fashion.appspot.com",
+    messagingSenderId: "952247448526",
+    appId: "1:952247448526:web:8d85c3d4384eba68ba719f",
+    measurementId: "G-SCKZST15M6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
