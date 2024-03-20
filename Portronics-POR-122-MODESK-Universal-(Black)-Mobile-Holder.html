@@ -4443,7 +4443,7 @@ for (var attr in meta) {
                         
   <div id="stock">
     <span>Available:</span>
-    <span class="stock">In Stock</span>
+    <span class="stock">Out of Stock</span>
   </div>
 
 
@@ -4470,8 +4470,8 @@ for (var attr in meta) {
                         <meta itemprop="priceCurrency" content="INR" />
 <meta itemprop="priceValidUntil" content="2020-11-05" />
 
-<div id="purchase-5699247308951" class="product-price">
-  <div class="detail-price" itemprop="price" content="85.0">
+<div id="purchase-5699305504919" class="product-price">
+  <div class="detail-price" itemprop="price" content="649.0">
     
       <span class="price-sale">₹ 85.00</span>
       <del class="price-compare"> ₹ 699.00</del>
@@ -4479,200 +4479,32 @@ for (var attr in meta) {
   </div>
 </div>
                         
-  
-  
 
-  
+                        
+                          <meta itemprop="price" content="649.0" />
 
+<div class="group-cw clearfix">
 
-                           
-
-                          
-                          
-
-                          <div class="group-cw clearfix">
-                            <form method="post" action="/cart/add" id="product_form_5699247308951" accept-charset="UTF-8" class="product-form product-action variants" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" />
-                              <div id="product-action-5699247308951"  class="options">
-
-  
-  
-  
-
-  
-
-  
-  
-  
-  
-
-  <div class="variants-wrapper clearfix"> 
-    <select id="product-select-5699247308951" name="id" style="display:none;">
-      
-
-      
-      <option  selected="selected"  value="36455942062231">Default Title</option>
-
-      
-
-      
-    </select>
-  </div>
-
-</div>
-                              <div class="qty-add-cart">
-                                <div class="quantity-product">
-  <label>Quantity</label>
-  <div class="quantity">
-    <input type="number" id="quantity" class="item-quantity" name="quantity" value="1" />
-    <span class="qty-inner qty-wrapper">
-
-      <span class="qty-up" title="Increase" data-src="#quantity">
-        <i class="demo-icon icon-plus"></i>
-      </span>
-
-      <span class="qty-down" title="Decrease" data-src="#quantity">
-        <i class="demo-icon icon-minus"></i>
-      </span>
-
-    </span>
-  </div>
-</div> <div class="action-button">
-<div class="action-button">
-    <button id="add-to-cart-button" class="add-to-cart btn btn-1" type="button"><span class="demo-icon icon-electro-add-to-cart-icon"></span>Add to cart</button>
-</div>
-
-<div class="action-button">
-    <button id="buy-now-button" class="buy-now btn btn-1" type="button"><span class="demo-icon icon-electro-buy-now-icon"></span>Buy Now</button>
+    <button id="bis-inline-button" type="button" class="Ordersify_InlineButton btn osf_inline_button" style="color: rgb(255, 255, 255); background-color: rgb(33, 43, 54);">Notify when available</button>
 </div>
 
 <script>
-    // Function to handle button clicks and redirect to the Google Forms link
-    function redirectToGoogleForms() {
-        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScCPGNE1hnkisHo3sPen0q5CSXRmcaS6GMUqiF-J-ztPU8SIw/viewform?usp=sf_link';
-    }
-
-    // Add to Cart button logic
-    document.getElementById('add-to-cart-button').addEventListener('click', function () {
-        console.log('Add to Cart button clicked');
-        redirectToGoogleForms();
-    });
-
-    // Buy Now button logic
-    document.getElementById('buy-now-button').addEventListener('click', function () {
-        console.log('Buy Now button clicked');
-        redirectToGoogleForms();
+    document.getElementById('bis-inline-button').addEventListener('click', function () {
+        // Show SweetAlert notification
+        Swal.fire({
+            title: 'Notify me when available',
+            text: 'We will send you a notification as soon as this product is available again.',
+            icon: 'info',
+            confirmButtonText: 'OK'
+        });
     });
 </script>
 
-                              </div>
-                            <input type="hidden" name="product-id" value="5699247308951" /></form>
 
-                            
-  
-  
-
-  <div class="people-in-cart">
-      <div class="img-user">
-        <img src="//ifyxstore.com/cdn/shop/t/4/assets/in_cart.png?v=160675125674534043661600155980" alt="Image" />
-      </div>
-      <div class="people-block-text"></div>
   </div>
 
-  <script type="text/javascript">
-
-          function setCookie(cname, cvalue, exdays) {
-              var d = new Date();
-              d.setTime(d.getTime() + (exdays*24*60*60*1000));
-              var expires = "expires="+ d.toUTCString();
-              document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-          };
-
-          function getCookie(name) {
-              var dc = document.cookie;
-              var prefix = name + "=";
-              var begin = dc.indexOf("; " + prefix);
-              if (begin == -1) {
-                  begin = dc.indexOf(prefix);
-                  if (begin != 0) return null;
-              }
-              else
-              {
-                  begin += 2;
-                  var end = document.cookie.indexOf(";", begin);
-                  if (end == -1) {
-                  end = dc.length;
-                  }
-              }
-              return decodeURI(dc.substring(begin + prefix.length, end));
-          };
-
-          function checkCookie($name) {
-              var popup = getCookie($name);
-              if (popup != "") {
-                  return popup;
-              } else {
-                  return false
-              }
-          };
-
-          // let _current_handle = '5699247308951';
-          let cookieincartName = `incart`;
-          let _incart = checkCookie(cookieincartName);
-
-
-          let cookieincartHide = 30/60/60/24;
-          let _maxOri = Number('20') || 999;
-          let _minOri = 1 || 99;
-          let _percent = 0.1;
-          let _number_rd = (max,min)=>Math.floor(Math.random() * (max - min) ) + min;
-
-          let _number = _number_rd(_maxOri,_minOri);     
-
-          if (_incart != null) {
-              let arrayN =  _incart.toString().split(',');
-              let arr_element = parseInt(arrayN.pop());
-
-              let max = Math.round(arr_element+(arr_element*_percent));
-              let min = Math.round(arr_element-(arr_element*_percent));
-
-              let _rd = _number_rd(max,min);
-
-              if (_rd > _maxOri) {
-                _rd = _maxOri;
-              }else if(_rd < _minOri){
-                _rd = _minOri;
-              }
-
-              $('.people-block-text').html('<span>Other people want this.</span> ' + _rd + ' people have this in their carts right now.');
-              arrayN.push(_rd);
-              document.cookie = `${cookieincartName}=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;`;
-              setCookie(cookieincartName, arrayN, cookieincartHide);
-
-          } else{
-              $('.people-block-text').html('<span>Other people want this.</span> ' + _number + ' people have this in their carts right now.');
-              let _array_number = [];
-              _array_number.push(_number);
-              document.cookie = `${cookieincartName}=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;`;
-              setCookie(cookieincartName, _array_number, cookieincartHide);
-          };
-
-  </script>
-
   
-
-                            
-  <ul class="shipping-time" data-deliverytime="7" data-deadline="10">
-
-    <li class="delivery-time"></li>
-
-    <li class="deadline">
-      <span class="text">Order within</span>
-      <div class="countdown_deadline"></div>
-    </li>  
-
-  </ul>
-
-                          </div>
+</div>
 
                           
 
