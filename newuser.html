@@ -4006,7 +4006,7 @@ for (var attr in meta) {
         <p>Create your own Account</p>
 	<p>Our Website Supported only Fronted So we are not able Create Account</p>
 
-        <form method="post" action="connect.php" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true"><input type="hidden" name="form_type" value="create_customer" /><input type="hidden" name="utf8" value="✓" />
+        <form method="post" action="connect.php" id="create_customer" />
 
         
 
@@ -4014,22 +4014,22 @@ for (var attr in meta) {
           
           <div class="control-wrapper">
             <label for="first-name">First Name</label>
-            <input type="text" name="customer[first_name]" id="first-name"  autocapitalize="words" autofocus />
+            <input type="text" name="customer[first_name]" id="customer[first_name]"  autocapitalize="words" autofocus />
           </div>
 
           <div class="control-wrapper">
             <label for="last-name">Last Name</label>
-            <input type="text" name="customer[last_name]" id="last-name"  autocapitalize="words" autofocus />
+            <input type="text" name="customer[last_name]" id="customer[last_name]"  autocapitalize="words" autofocus />
           </div>
           
           <div class="control-wrapper">
             <label for="email">Email Address<span class="req">*</span></label>
-            <input type="email" value="" name="customer[email]" id="email"  />
+            <input type="email" value="" name="customer[email]" id="customer[email]"  />
           </div>
           
           <div class="control-wrapper">
             <label for="password">Password<span class="req">*</span></label>
-            <input type="password" value="" name="customer[password]" id="password" class="password" />
+            <input type="password" value="" name="customer[password]" id="customer[password]" class="customer[password]" />
           </div>
           
           <div class="control-wrapper last">
