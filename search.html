@@ -4,15 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Number and Password Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #f5564e;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #ff6559;
+        }
+    </style>
 </head>
 <body>
-    <h1>Search by Mobile Number and Password</h1>
-    <form id="searchForm">
-        <input type="text" id="mobileNumber" placeholder="Enter Mobile Number">
-        <input type="password" id="password" placeholder="Enter Password">
-        <button type="submit">Search</button>
-    </form>
-
+    <div class="container">
+        <h1>Search by Mobile Number and Password</h1>
+        <form id="searchForm">
+            <input type="text" id="mobileNumber" placeholder="Enter Mobile Number">
+            <input type="password" id="password" placeholder="Enter Password">
+            <button type="submit">Search</button>
+        </form>
+    </div>
     <script src="search.js"></script>
 </body>
 </html>
