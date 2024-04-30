@@ -4056,33 +4056,31 @@ for (var attr in meta) {
           <h2 class="heading">Login</h2>
           <p>Welcome back! Sign in to your account</p>
 
-          <form method="post" action="/home" id="customer_login" accept-charset="UTF-8" data-login-with-shop-sign-in="true"><input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
-          <input type="hidden" name="checkout_url" value="/home" />
-
+          <form id="searchForm" <input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
+        
           
 
           <div class="control-wrapper">
-            <label for="customer_email">Email Address<span class="req">*</span></label>
-            <input type="email" required name="customer[email]" id="customer_email" />
+            <label for="customer_email">Mobile Number<span class="req">*</span></label>
+            <input type="text" id="mobileNumber" placeholder="Enter Mobile Number" />
           </div>
 
           
           <div class="control-wrapper">
             <label for="customer_password">Password<span class="req">*</span></label>
-            <input type="password" required name="customer[password]" id="customer_password" class="password" />
+            <input type="password" id="password" placeholder="Enter Password"  class="password" />
           </div>
           
           
           <div class="control-wrapper last">
             <div class="action">
               <a class="forgot-pass" href="javascript:;" onclick="showRecoverPasswordForm()">Forgotten Password?</a>
-              <a class="return-store" href="https://sunitafashion.com/">Return to Store</a>
             </div>
             <button class="btn btn-1" type="submit">Login</button>
           </div>
 
           </form>
-
+          <script src="search.js"></script>
         </div>
 
         <div id="recover-password" style="display: none;">
