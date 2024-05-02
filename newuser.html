@@ -4003,7 +4003,6 @@ for (var attr in meta) {
 
         <h2 class="heading">Create New Account</h2>
         <p>Create your own Account</p>
-	<p>We Are Supported only Fronted Login System</p>
 
         <form method="post" id="create_customer" data-netlify="true" action="/registration_success" >
 
@@ -4017,13 +4016,13 @@ for (var attr in meta) {
           </div>
 
           <div class="control-wrapper">
-            <label for="last-name">Email Address<span class="req">*</span></label>
-            <input type="text" name="customer[last_name]" id="customer[last_name]"  autocapitalize="words" autofocus />
+            <label for="email">Email Address<span class="req">*</span></label>
+            <input type="email" value="" name="customer[email]" id="customer[email]"  />
           </div>
           
           <div class="control-wrapper">
-            <label for="email">Mobile Number<span class="req">*</span></label>
-            <input type="email" value="" name="customer[email]" id="customer[email]"  />
+            <label for="mobilenumber">Mobile Number<span class="req">*</span></label>
+            <input type="mobilenumber" value="10" name="customer[mobilenumber]" id="customer[mobilenumber]"  />
           </div>
           
           <div class="control-wrapper">
@@ -4056,7 +4055,7 @@ for (var attr in meta) {
           <p>Welcome back! Sign in to your account</p>
 
           <form id="searchForm" <input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
-        
+          <input type="hidden" name="checkout_url" value="/checkout" />
           
 
           <div class="control-wrapper">
