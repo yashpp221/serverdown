@@ -605,10 +605,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script crossorigin="anonymous" src="//ifyxstore.com/cdn/shopifycloud/shopify/assets/themes_support/api.jquery-b0af070cfe3f5cf7c92f9e2a5da2665ee07ed2aad63bb408f8d6672f894a5996.js" defer></script>
 
 	
-  <div class="container scroll-right">
-   <span>New Updates</span>
-   <marquee behavior="" direction="left"> CASH ON DELIVERY • LOWEST PRICES • QUICK RETURNS • TOP DISCOUNTS • </marquee>
+  <div class="update-container">
+    <div class="update-title">New Updates</div>
+    <div class="update-marquee">
+        <span>CASH ON DELIVERY • LOWEST PRICES • QUICK RETURNS • TOP DISCOUNTS</span>
+    </div>
 </div>
+.update-container {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.update-marquee {
+    overflow: hidden;
+}
+
+.update-marquee span {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
 
 
    
