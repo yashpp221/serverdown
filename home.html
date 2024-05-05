@@ -27,6 +27,29 @@
       100% { transform: translateX(-100%); }
     }
   </style>
+	<style>
+  /* Style for the welcome page */
+  .welcome-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    z-index: 9999;
+  }
+  .welcome-gif {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  /* Style for the home page */
+  .home-page {
+    display: none; /* Hide by default */
+  }
+</style>
 <script type="text/javascript">
   window.ORDERSIFY_BIS = window.ORDERSIFY_BIS || {};
   window.ORDERSIFY_BIS.template = "index";
@@ -625,7 +648,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   setTimeout(function() {
     document.querySelector('.welcome-page').style.display = 'none';
     document.querySelector('.home-page').style.display = 'block';
-  }, 5000);
+  }, 6000);
 </script>
 	
 <body <!-- Google Tag Manager (noscript) -->
