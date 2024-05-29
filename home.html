@@ -670,18 +670,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     Your browser does not support the audio element.
   </audio>
 
-  <script>
+   <script>
     // Function to show the tap to continue page after the GIF ends
-    setTimeout(function() {
-      document.querySelector('.welcome-page').style.display = 'none';
+    function showTapPage() {
+      document.getElementById('welcomePage').style.display = 'none';
       document.getElementById('tapPage').style.display = 'flex';
-    }, 5000); // 5000ms = 5 seconds
+    }
 
-    // Function to start the music when the tap page is clicked
-    document.getElementById('tapPage').addEventListener('click', function() {
+    // Function to start the music and redirect to home page
+    function continueToHomePage() {
       document.getElementById('backgroundMusic').play();
+      localStorage.setItem('hasSeenWelcome', 'true');
       window.location.href = "https://sunitafashion.com/home"; // Redirect to home page
-    });
+    }
+
+    // Check if the user has already seen the welcome screen
+    if (localStorage.getItem('hasSeenWelcome') !== 'true') {
+      setTimeout(showTapPage, 5000); // 5000ms = 5 seconds
+    } else {
+      // Redirect to home page immediately if already seen
+      window.location.href = "https://sunitafashion.com/home";
+    }
+
+    // Add event listener to the tap page
+    document.getElementById('tapPage').addEventListener('click', continueToHomePage);
   </script>
 
 
