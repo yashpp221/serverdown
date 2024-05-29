@@ -46,24 +46,6 @@
   max-height: 100%;
 }
 
- /* Style for the tap to continue page */
-    .tap-page {
-      display: none; /* Hide by default */
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white; /* Set background color to white */
-      z-index: 9998;
-    }
-    .tap-message {
-      font-size: 2rem;
-      font-weight: bold;
-    }	
 /* Style for the home page */
 .home-page {
   display: block; /* Display the home page */
@@ -659,42 +641,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="welcome-page">
   <img class="welcome-gif" src="https://github.com/yashpp221/serverdown/blob/main/sunita-fashion-intro.gif?raw=true" alt="Welcome to Sunita Fashion">
 </div>
-        <!-- Tap to continue page -->
-  <div class="tap-page" id="tapPage">
-    <div class="tap-message">Tap to continue</div>
-  </div>
 
   <!-- Audio element for background music -->
   <audio id="backgroundMusic" loop>
     <source src="Welcome-edm-web.mp3" type="audio/mp3">
     Your browser does not support the audio element.
   </audio>
-
-   <script>
-    // Function to show the tap to continue page after the GIF ends
-    function showTapPage() {
-      document.getElementById('welcomePage').style.display = 'none';
-      document.getElementById('tapPage').style.display = 'flex';
-    }
-
-    // Function to start the music and redirect to home page
-    function continueToHomePage() {
-      document.getElementById('backgroundMusic').play();
-      localStorage.setItem('hasSeenWelcome', 'true');
-      window.location.href = "https://sunitafashion.com/home"; // Redirect to home page
-    }
-
-    // Check if the user has already seen the welcome screen
-    if (localStorage.getItem('hasSeenWelcome') !== 'true') {
-      setTimeout(showTapPage, 5000); // 5000ms = 5 seconds
-    } else {
-      // Redirect to home page immediately if already seen
-      window.location.href = "https://sunitafashion.com/home";
-    }
-
-    // Add event listener to the tap page
-    document.getElementById('tapPage').addEventListener('click', continueToHomePage);
-  </script>
 
 
 
