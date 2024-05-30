@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tap to Continue</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+    }
+
+    .background-gif {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .tap-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+
+    .tap-box {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 20px 40px;
+      border-radius: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      text-align: center;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <!-- Full-screen GIF background -->
+  <img class="background-gif" src="https://github.com/yashpp221/serverdown/blob/main/sunita-fashion-intro.gif?raw=true" alt="Welcome GIF">
+
+  <!-- Tap to continue box -->
+  <div class="tap-container">
+    <div class="tap-box" id="tapBox">Tap to continue</div>
+  </div>
+
+  <!-- Audio element for EDM music -->
+  <audio id="backgroundMusic">
+    <source src="your-music-file.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    // Function to play the music and stop it after 3-5 seconds
+    function playMusic() {
+      var music = document.getElementById('backgroundMusic');
+      music.play();
+      setTimeout(function() {
+        music.pause();
+        music.currentTime = 0; // Reset to the beginning of the audio
+        window.location.href = "https://sunitafashion.com/home"; // Redirect to home page
+      }, 4000); // 4000ms = 4 seconds
+   
+    // Add event listener to the tap box
+    document.getElementById('tapBox').addEventListener('click', function() {
+      // Play music and redirect
+      playMusic();
+    });
+  </script>
+</body>
+</html>
