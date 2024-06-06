@@ -637,40 +637,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script charset="UTF-8" src="//web.webpushs.com/js/push/5027e78dc44e57bdeb21200492fa900c_1.js" async></script>
 </head>
 <body>
-  <!-- Full-screen GIF background -->
-  <img class="background-gif" src="https://github.com/yashpp221/serverdown/blob/main/TAP-GIF-CON.gif?raw=true" alt="Welcome GIF">
-
-  <!-- Tap to continue box -->
-  <div class="tap-container">
-    <div class="tap-box" id="tapBox">Tap to continue</div>
-  </div>
-
-  <!-- Audio element for EDM music -->
-  <audio id="backgroundMusic">
-    <source src="Welcome-edm-web.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
 	<!-- Welcome page with GIF -->
 <div class="welcome-page">
   <img class="welcome-gif" src="https://github.com/yashpp221/serverdown/blob/main/sunita-fashion-intro.gif?raw=true" alt="Welcome to Sunita Fashion">
 </div>
-
-
-<script>
-    // Function to play the music and stop it after 3-5 seconds
-    function playMusic() {
-      var music = document.getElementById('backgroundMusic');
-      music.play();
-      setTimeout(function() {
-        music.pause();
-        music.currentTime = 0; // Reset to the beginning of the audio
-        window.location.href = "https://sunitafashion.com/home"; // Redirect to home page
-      }, 4000); // 4000ms = 4 seconds
-    }
-
-    // Add event listener to the tap box
-    document.getElementById('tapBox').addEventListener('click', playMusic);
-  </script>
 
 
 <script>
