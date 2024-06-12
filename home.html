@@ -52,6 +52,24 @@
 }
 /* style for text desine write it uo */
 	/* Normal desktop view */
+/* Normal desktop view */
+.product-grid-content {
+  background-color: #ffffff;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .product-grid-content {
+    background: url('https://down-my.img.susercontent.com/file/574c240ff5b93bf28d163973831b5828') no-repeat center center;
+    background-size: cover;
+    height: 50px; /* Adjust the height as needed */
+    width: 100%; /* Ensure the width is 100% to cover the full screen width */
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
 
   </style>
 
@@ -9967,7 +9985,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
     <div class="title-wrapper ">
-      <h3>Wire it up!</h3>
+      <h3 class="desktop-only">Wire it up!</h3>
 
       
 
