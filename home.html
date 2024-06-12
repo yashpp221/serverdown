@@ -57,6 +57,11 @@
   background-color: #ffffff;
 }
 
+	/* Show the h3 on desktop view */
+.desktop-only {
+  display: block;
+}
+	
 /* Ensure the h3 is hidden on mobile view */
 @media (max-width: 768px) {
   .background-001 {
@@ -68,8 +73,8 @@
 }
 
 
-  .title-wrapper .desktop-only {
-    display: none !important;
+   .desktop-only {
+    display: none;
   }
   </style>
 
@@ -9978,8 +9983,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
         
-<div class="background-001 block-type-product" 
-<div class="product-grid-content block-type-product" style="background-color: #ffffff;">
+
+<div class="product-grid-content block-type-product"
+	<div class="background-001 block-type-product" 
   <div class="container">
     <div class="title-wrapper">
 <!-- name event -->
@@ -9989,8 +9995,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="product-grid-carousel">
         <!-- Your carousel content here -->
       </div>
-
-          
+</div>
+  </div>
+</div>
+  </div>        
 
             <div class="product-grid-item">
               
