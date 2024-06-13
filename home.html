@@ -89,17 +89,23 @@
     z-index: 1;
   }
 
-    .product-grid-inner {
+  .product-grid-content-inner {
     position: relative;
     z-index: 2;
     padding: 20px;
   }
 
-  .product-grid-carousel,
+  .product-grid-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
   .product-grid-item {
     background: rgba(255, 255, 255, 0.8);
     padding: 10px;
     border-radius: 5px;
+    width: 100%; /* Adjust width as necessary */
   }
 
   .title-wrapper {
@@ -10028,7 +10034,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-      <div class="product-grid-inner">
+      <div class="product-grid-content-inner">
         <div class="product-grid-carousel">       
             <div class="product-grid-item">
 <div class="product-wrapper  effect-overlay">
