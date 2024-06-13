@@ -50,15 +50,23 @@
 .home-page {
   display: block; /* Display the home page */
 }
-/* style for text desine write it uo */
-	/* Normal desktop view */
+
+	
 /* Normal desktop view */
 .product-grid-content {
   background-color: #ffffff;
 }
 
-	.desktop-only {
-  display: block;
+/* Hide the title-wrapper by default */
+.title-wrapper {
+  display: none;
+}
+
+/* Show the title-wrapper on desktop view */
+@media (min-width: 769px) {
+  .title-wrapper {
+    display: block;
+  }
 }
 
 /* Mobile view */
@@ -70,15 +78,11 @@
     width: 100%; /* Ensure the width is 100% to cover the full screen width */
   }
 
-  .desktop-only {
-    display: none;
-  }
-}
-
-	.product-grid-inner {
+ .product-grid-inner {
     background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for readability */
     padding: 20px; /* Add padding to ensure content is not flush with the edges */
   }
+}
 
   </style>
 
@@ -9989,12 +9993,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
 
 
-              <div class="product-grid-content block-type-product" style="background-color: #ffffff;">
+  <div class="product-grid-content block-type-product">
   <div class="container">
   
     
-    <div class="title-wrapper ">
-      <h3 class="desktop-only">Wire it up!</h3>
+    <div class="title-wrapper desktop-only">
+      <h3>Wire it up!</h3>
 
       
 
