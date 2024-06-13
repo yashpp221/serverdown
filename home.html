@@ -51,67 +51,6 @@
   display: block; /* Display the home page */
 }
 
-	
-/* Normal desktop view */
-.product-grid-content {
-  background-color: #ffffff;
-}
-
-/* Hide the title-wrapper by default */
-.title-wrapper {
-  display: none;
-}
-
-/* Show the title-wrapper on desktop view */
-@media (min-width: 769px) {
-  .title-wrapper {
-    display: block;
-  }
-}
-
-/* Mobile view */
-@media (max-width: 768px) {
-  .product-grid-content {
-    background: url('https://down-my.img.susercontent.com/file/574c240ff5b93bf28d163973831b5828') no-repeat center center;
-    background-size: cover;
-    height: 50px; /* Adjust the height as needed */
-    width: 100%; /* Ensure the width is 100% to cover the full screen width */
-  }
-
-  .product-grid-content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent overlay */
-    z-index: 1;
-  }
-
-  .product-grid-content-inner {
-    position: relative;
-    z-index: 2;
-    padding: 20px;
-  }
-
-  .product-grid-carousel {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .product-grid-item {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%; /* Adjust width as necessary */
-  }
-
-  .title-wrapper {
-    display: none;
-  }
-}
 
   </style>
 
