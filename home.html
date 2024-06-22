@@ -656,18 +656,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body>
 	<!-- Welcome page with GIF -->
+<!-- Welcome page with GIF and MP3 -->
 <div class="welcome-page">
   <img class="welcome-gif" src="https://github.com/yashpp221/serverdown/blob/main/unnamed.gif?raw=true" alt="Welcome to Sunita Fashion">
+  <audio id="welcome-audio" autoplay>
+    <source src="TunePocket-Tech-Logo-4-Sec-Preview [music].mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
 </div>
 
+<!-- Home page (initially hidden) -->
+<div class="home-page" style="display: none;">
+  <!-- Your home page content -->
+</div>
 
 <script>
-  // After 5 seconds, hide the welcome page and show the home page
-  setTimeout(function() {
+  // Function to handle hiding welcome page and showing home page
+  function showHomePage() {
     document.querySelector('.welcome-page').style.display = 'none';
     document.querySelector('.home-page').style.display = 'block';
-  }, 5050);
+  }
+
+  // After 5 seconds, stop the audio, hide the welcome page, and show the home page
+  setTimeout(function() {
+    var audio = document.getElementById('welcome-audio');
+    audio.pause();
+    audio.currentTime = 0;
+    showHomePage();
+  }, 5050); // 5000 milliseconds = 5 seconds
 </script>
+
 	
 <body <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGXRMZ3X"
