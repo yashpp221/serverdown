@@ -5,6 +5,7 @@
 <style type="text/css">
   		
 <style>
+	
     /* Your CSS code here */
     .container {
       overflow: hidden;
@@ -67,6 +68,10 @@
   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 5%, #9EF3FF 100%) !important;
 }
 
+/* Initially hide the element */
+#july-special {
+  display: none;
+}
 
 
   </style>
@@ -4514,8 +4519,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <div class="title-wrapper">
-	  <h3>.</h3>
-    <h3>July Special</h3>
+    <h3 id="july-special">July Special</h3>
   </div>
 
 
@@ -12330,5 +12334,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
+
+	<script>
+  // Function to check screen width and apply styles
+  function showOnDesktop() {
+    var julySpecial = document.getElementById('july-special');
+    if (window.innerWidth >= 1024) { // Assuming desktop screen width is 1024px or more
+      julySpecial.style.display = 'block';
+    } else {
+      julySpecial.style.display = 'none';
+    }
+  }
+
+  // Run on page load
+  window.onload = showOnDesktop;
+
+  // Run on window resize
+  window.onresize = showOnDesktop;
+</script>
+
 </body>
 </html>
