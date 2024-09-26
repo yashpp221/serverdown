@@ -1379,12 +1379,12 @@
 }
 
 .section-separator.section-separator-margin-top {
-    padding-top: 30px
+    padding-top: 0px
 }
 
 @media (max-width: 767px) {
     .section-separator.section-separator-margin-top {
-        padding-top:20px
+        padding-top:0px
     }
 }
 
