@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Services Ratings</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo img {
+            height: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #0288d1;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .rating {
+            color: #ff9800;
+            font-size: 1.2em;
+        }
+        .responsive-container {
+            width: 90%;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Company Logo">
+    </div>
+    <h1>Logistics Services Ratings</h1>
+</header>
+
+<!-- Responsive Table for Logistics Services -->
+<div class="responsive-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Service Type</th>
+                <th>Rating</th>
+                <th>Delivered In (Days)</th>
+                <th>Pick Up In (Days)</th>
+                <th>Overall Performance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Delhivery</td>
+                <td>Parcel & Freight</td>
+                <td><span class="rating">⭐⭐⭐⭐</span></td>
+                <td>2-4</td>
+                <td>1-2</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Ecom Express</td>
+                <td>eCommerce Deliveries</td>
+                <td><span class="rating">⭐⭐⭐⭐⭐</span></td>
+                <td>3-5</td>
+                <td>1-3</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>XpressBees</td>
+                <td>Logistics & Express Delivery</td>
+                <td><span class="rating">⭐⭐⭐</span></td>
+                <td>4-6</td>
+                <td>1-3</td>
+                <td>Average</td>
+            </tr>
+            <tr>
+                <td>Shadowfax</td>
+                <td>Last Mile Delivery</td>
+                <td><span class="rating">⭐⭐⭐⭐</span></td>
+                <td>2-3</td>
+                <td>1</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Blue Dart</td>
+                <td>Express Delivery</td>
+                <td><span class="rating">⭐⭐⭐⭐⭐</span></td>
+                <td>1-2</td>
+                <td>1</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>Ekart</td>
+                <td>Parcel Delivery</td>
+                <td><span class="rating">⭐⭐⭐⭐</span></td>
+                <td>2-4</td>
+                <td>1-2</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Amazon Logistics</td>
+                <td>eCommerce & Parcel</td>
+                <td><span class="rating">⭐⭐⭐⭐</span></td>
+                <td>2-3</td>
+                <td>1-2</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>DTDC</td>
+                <td>Courier & Cargo</td>
+                <td><span class="rating">⭐⭐⭐</span></td>
+                <td>3-5</td>
+                <td>2-3</td>
+                <td>Average</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Sunita Fashion Logistics Services | All rights reserved</p>
+</footer>
+
+</body>
+</html>
